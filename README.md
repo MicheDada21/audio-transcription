@@ -1,8 +1,8 @@
 # audio-transcription
 
-Trascrive il parlato di un file audio o video locale con Voxtral 3 tramite OpenRouter, con timestamp ed etichette dei parlanti a richiesta.
+Trascrive il parlato di un file audio o video locale con Voxtral 3 tramite OpenRouter, con timestamp a richiesta.
 
-Fa parte della [Prompt Library di CH Labs](https://www.cryptohelvetia.com/ch-labs/prompt-library). Il repo contiene una copia della skill, rigenerata a ogni aggiornamento della libreria.
+Fa parte della [Prompt Library di CH Labs](https://www.cryptohelvetia.com/ch-labs/prompt-library), dove la pagina di riferimento è [Transcribe local audio and video files](https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/audio-transcription). Il repo contiene una copia della skill, rigenerata a ogni aggiornamento della libreria.
 
 ## Installare
 

@@ -1,6 +1,6 @@
 ---
 name: transcribe-audio-video
-description: Transcribe speech from a local audio or video file (mp3, m4a, wav, ogg, opus, flac, webm, aac, aiff, mp4, mov) with Voxtral 3 through OpenRouter, with optional timestamps. Use when the user attaches or names a recording, voice note, meeting, interview or podcast whose words the task needs.
+description: "Transcribes speech from a local audio or video file with Voxtral 3 through OpenRouter, with optional timestamps and a per-file cost guard. Use when a task needs the words of a recording, meeting or podcast."
 ---
 
 # Audio transcription

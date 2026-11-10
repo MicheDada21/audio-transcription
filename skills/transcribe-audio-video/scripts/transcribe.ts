@@ -141,7 +141,7 @@ async function transcribe(
   segmented: boolean,
   apiKey: string,
 ): Promise<Result> {
-  const work = needsConversion ? await mkdtemp(join(tmpdir(), "audio-transcription-")) : null;
+  const work = needsConversion ? await mkdtemp(join(tmpdir(), "transcribe-audio-video-")) : null;
   try {
     const parts = work ? await splitToMp3(path, work) : [{ path, format: ext === "m4a" ? "m4a" : ext, start: 0 }];
     const responses = await mapLimit(parts, CONCURRENCY, (part) => requestPart(part.path, part.format, modelKey, segmented, apiKey));
@@ -187,7 +187,7 @@ async function requestPart(path: string, format: string, modelKey: ModelKey, seg
     try {
       res = await fetch(ENDPOINT, {
         method: "POST",
-        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json", "X-Title": "audio-transcription skill" },
+        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json", "X-Title": "transcribe-audio-video skill" },
         body: JSON.stringify(body),
         signal: AbortSignal.timeout(180_000),
       });

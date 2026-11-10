@@ -1,10 +1,10 @@
 {
-  "name": "audio-transcription",
+  "name": "transcribe-audio-video",
   "description": "Transcribe speech from a local audio or video file (mp3, m4a, wav, ogg, opus, flac, webm, aac, aiff, mp4, mov) with Voxtral 3 through OpenRouter, with optional timestamps. Use when the user attaches or names a recording, voice note, meeting, interview or podcast whose words the task needs.",
   "author": {
     "name": "Tiziano Boccaccini"
   },
-  "homepage": "https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/audio-transcription",
-  "repository": "https://github.com/MicheDada21/audio-transcription",
+  "homepage": "https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/transcribe-audio-video",
+  "repository": "https://github.com/MicheDada21/transcribe-audio-video",
   "license": "MIT"
 }

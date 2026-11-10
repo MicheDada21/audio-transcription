@@ -3,7 +3,7 @@ name: transcribe-audio-video
 description: "Transcribes speech from a local audio or video file with Voxtral 3 through OpenRouter, with optional timestamps and a per-file cost guard. Use when a task needs the words of a recording, meeting or podcast."
 ---
 
-# Audio transcription
+# Transcribe audio video
 
 The IDEs pass images (and, in Claude Code, PDFs) to the model, never audio. Speech reaches the task only as text from `scripts/transcribe.ts`, run on the file's local path. The original file stays untouched.
 
